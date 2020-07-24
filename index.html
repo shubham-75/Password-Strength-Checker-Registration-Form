@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <center>
+  <h1>Password Strength Tester (Login Form)</h1>
+    </center>
+    <meta charset="utf-8">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  </head>
+  <body>
+<form>
+  <div class="input-box">
+    <span>
+    <i class="fa fa-user-o"></i>
+    </span>
+    <input type="text" placeholder="User Name" required>
+    </div>
+
+    <div class="input-box">
+      <span>
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      </span>
+      <input type="email" placeholder="Email Id" required>
+      </div>
+
+      <div class="input-box">
+       <span>
+       <i class="fa fa-key"></i>
+      </span>
+      <input type="password" id="password" placeholder="Password" required>
+      </div>
+
+<div>
+<center>
+<button type="submit" name="button" onclick="return confirm('Do you really want to submit the form?');">Register</button>
+</center>
+</div>
+<div class="container">
+    <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active" id="pb" role="progressbar"><p style="font-size: 20px;" id="l">Level</p>
+        </div>
+</div>
+</div>
+<div class="container">
+   <div class="jumbotron">
+       <h4 class="text-danger">Password Strength</h4>
+       <p class="text-danger">* Preferably contain atleast 6 characters*<br>* Preferably contain Upper and Lower case alphabets*<br>* Preferably contain digits*<br>* Preferably contain atleast one special character*</p></div>
+</div>
+</form>
+<script type="text/javascript">
+    $(function() {
+        $("#password").passwordStrength();
+    });
+</script>
+<div class="ending">
+<strong><center>
+ Made with ❤️ by Shubham Agrawal
+ </strong> </center>
+</div>
+  </body>
+</html>
