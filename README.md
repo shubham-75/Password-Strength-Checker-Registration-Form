@@ -16,4 +16,4 @@ In cryptography, a brute-force attack consists of an attacker submitting many pa
 
 This poses a security threat for all users and thus setting a strong password which cannot be cracked easily is important.
 
-![screenshot](screenshot_project.png)
+![screenshot](screenshot_proj.png)
