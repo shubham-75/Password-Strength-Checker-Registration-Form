@@ -1,4 +1,4 @@
-# Password-Strenth-Checker-Account-Creation-Form
+# Password-Strength-Checker-Account-Creation-Form
 A password strength checker!
 
 A password strength checker which can indicate the strength of the password that the user has entered for creating a new account password. 
