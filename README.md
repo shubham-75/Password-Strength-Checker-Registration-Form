@@ -1,6 +1,6 @@
-# Password-Strength-Checker-Account-Creation-Form
+# Password-Strength-Checker-Registration-Form
 
-A password strength checker which can indicate the strength of the password that the user has entered for creating a new account. 
+A password strength checker which can indicate the strength of the password that the user has entered.
 This can help the user know if the password which the user wants to set is :
 1. Too weak
 2. Weak
